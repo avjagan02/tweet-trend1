@@ -1,5 +1,6 @@
 pipeline {
-    agent {label 'maven'}  
+    agent {label 'maven'} 
+
 environment {
         PATH = "/opt/apache-maven-3.9.6/bin:$PATH"
 }
@@ -10,4 +11,4 @@ environment {
             }
         }
      }
-        }
+ }
